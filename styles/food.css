@@ -1,15 +1,17 @@
 * {
     margin: 0;
 }
-h3 {
+h2 {
     text-align: center;
+    margin-bottom: 22px;
 }
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     text-align: center;
-    margin-top: 20px;
+    width: 80%;
+    margin: auto;
 }
 /* .card {
     height: 200px;
@@ -25,5 +27,11 @@ img {
 .card{
     box-shadow: -10px -6px 10px grey;
     border-radius: 5px;
+    transition: 0.3s;
+
+}
+
+.card:hover{
+    box-shadow: -12px -8px 12px grey;
 }
 
